@@ -1,0 +1,189 @@
+2026-11-06 22:23:54.581 [main] INFO  com.atm.Main - Initializing Apex Bank ATM Simulator System...
+2026-11-06 22:23:54.749 [main] WARN  com.atm.config.AppConfig - No config.properties found on classpath, using built-in defaults
+2026-11-06 22:23:54.768 [main] INFO  com.zaxxer.hikari.HikariDataSource - AtmHikariPool - Starting...
+2026-11-06 22:23:56.002 [main] ERROR com.atm.Main - Database connection failure on startup
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:584)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at com.atm.util.DBConnection.<init>(DBConnection.java:40)
+	at com.atm.util.DBConnection.getInstance(DBConnection.java:48)
+	at com.atm.util.DBConnection.getConnection(DBConnection.java:56)
+	at com.atm.Main.main(Main.java:35)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	... 6 common frames omitted
+2026-11-06 22:26:22.211 [AWT-EventQueue-0] INFO  com.atm.Main - LoginFrame successfully launched on Event Dispatch Thread.
+2026-11-06 22:32:37.809 [main] INFO  com.atm.Main - Initializing Apex Bank ATM Simulator System...
+2026-11-06 22:32:37.996 [main] WARN  com.atm.config.AppConfig - No config.properties found on classpath, using built-in defaults
+2026-11-06 22:32:38.018 [main] INFO  com.zaxxer.hikari.HikariDataSource - AtmHikariPool - Starting...
+2026-11-06 22:32:39.226 [main] ERROR com.atm.Main - Database connection failure on startup
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:584)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at com.atm.util.DBConnection.<init>(DBConnection.java:40)
+	at com.atm.util.DBConnection.getInstance(DBConnection.java:48)
+	at com.atm.util.DBConnection.getConnection(DBConnection.java:56)
+	at com.atm.Main.main(Main.java:35)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	... 6 common frames omitted
+2026-11-06 22:32:53.399 [AWT-EventQueue-0] INFO  com.atm.Main - LoginFrame successfully launched on Event Dispatch Thread.
+2026-11-06 22:34:10.803 [main] INFO  com.atm.Main - Initializing Apex Bank ATM Simulator System...
+2026-11-06 22:34:10.972 [main] WARN  com.atm.config.AppConfig - No config.properties found on classpath, using built-in defaults
+2026-11-06 22:34:10.990 [main] INFO  com.zaxxer.hikari.HikariDataSource - AtmHikariPool - Starting...
+2026-11-06 22:34:12.186 [main] ERROR com.atm.Main - Database connection failure on startup
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:584)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at com.atm.util.DBConnection.<init>(DBConnection.java:40)
+	at com.atm.util.DBConnection.getInstance(DBConnection.java:48)
+	at com.atm.util.DBConnection.getConnection(DBConnection.java:56)
+	at com.atm.Main.main(Main.java:35)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	... 6 common frames omitted
+2026-11-06 22:34:15.044 [AWT-EventQueue-0] INFO  com.atm.Main - LoginFrame successfully launched on Event Dispatch Thread.
+2026-11-06 22:40:19.585 [main] INFO  com.atm.Main - Initializing Apex Bank ATM Simulator System...
+2026-11-06 22:40:19.786 [main] WARN  com.atm.config.AppConfig - No config.properties found on classpath, using built-in defaults
+2026-11-06 22:40:19.803 [main] INFO  com.zaxxer.hikari.HikariDataSource - AtmHikariPool - Starting...
+2026-11-06 22:40:20.992 [main] ERROR com.atm.Main - Database connection failure on startup
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:584)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at com.atm.util.DBConnection.<init>(DBConnection.java:40)
+	at com.atm.util.DBConnection.getInstance(DBConnection.java:48)
+	at com.atm.util.DBConnection.getConnection(DBConnection.java:56)
+	at com.atm.Main.main(Main.java:35)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	... 6 common frames omitted
+2026-11-06 22:40:25.110 [AWT-EventQueue-0] INFO  com.atm.Main - LoginFrame successfully launched on Event Dispatch Thread.
+2026-11-06 22:40:32.272 [main] INFO  com.atm.Main - Initializing Apex Bank ATM Simulator System...
+2026-11-06 22:40:32.435 [main] WARN  com.atm.config.AppConfig - No config.properties found on classpath, using built-in defaults
+2026-11-06 22:40:32.456 [main] INFO  com.zaxxer.hikari.HikariDataSource - AtmHikariPool - Starting...
+2026-11-06 22:40:33.650 [main] ERROR com.atm.Main - Database connection failure on startup
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:584)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at com.atm.util.DBConnection.<init>(DBConnection.java:40)
+	at com.atm.util.DBConnection.getInstance(DBConnection.java:48)
+	at com.atm.util.DBConnection.getConnection(DBConnection.java:56)
+	at com.atm.Main.main(Main.java:35)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	... 6 common frames omitted
+2026-11-06 22:40:54.465 [AWT-EventQueue-0] INFO  com.atm.Main - LoginFrame successfully launched on Event Dispatch Thread.
+2026-11-06 22:42:07.931 [main] INFO  com.atm.Main - Initializing Apex Bank ATM Simulator System...
+2026-11-06 22:42:08.101 [main] WARN  com.atm.config.AppConfig - No config.properties found on classpath, using built-in defaults
+2026-11-06 22:42:08.118 [main] INFO  com.zaxxer.hikari.HikariDataSource - AtmHikariPool - Starting...
+2026-11-06 22:42:09.301 [main] ERROR com.atm.Main - Database connection failure on startup
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:584)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at com.atm.util.DBConnection.<init>(DBConnection.java:40)
+	at com.atm.util.DBConnection.getInstance(DBConnection.java:48)
+	at com.atm.util.DBConnection.getConnection(DBConnection.java:56)
+	at com.atm.Main.main(Main.java:35)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	... 6 common frames omitted
+2026-11-06 22:42:13.607 [AWT-EventQueue-0] INFO  com.atm.Main - LoginFrame successfully launched on Event Dispatch Thread.
+2026-11-06 22:44:48.501 [main] INFO  com.atm.Main - Initializing Apex Bank ATM Simulator System...
+2026-11-06 22:44:48.697 [main] WARN  com.atm.config.AppConfig - No config.properties found on classpath, using built-in defaults
+2026-11-06 22:44:48.717 [main] INFO  com.zaxxer.hikari.HikariDataSource - AtmHikariPool - Starting...
+2026-11-06 22:44:49.910 [main] ERROR com.atm.Main - Database connection failure on startup
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:584)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at com.atm.util.DBConnection.<init>(DBConnection.java:40)
+	at com.atm.util.DBConnection.getInstance(DBConnection.java:48)
+	at com.atm.util.DBConnection.getConnection(DBConnection.java:56)
+	at com.atm.Main.main(Main.java:35)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	... 6 common frames omitted
+2026-11-06 22:44:54.099 [AWT-EventQueue-0] INFO  com.atm.Main - LoginFrame successfully launched on Event Dispatch Thread.
